@@ -25,11 +25,8 @@ public abstract class Account {
     }
 
     // Abstract methods that must be implemented in subclasses
-    public abstract void deposit(double amount);  // how to add money
-    public abstract void withdraw(double amount); // how to remove money
+    public abstract void deposit(double amount);  // add money
+    public abstract void withdraw(double amount); // remove money
 
 
     }
-}
-
-}
