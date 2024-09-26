@@ -1,7 +1,8 @@
 public abstract class Account {
+    
     // Attributes
-    private String accountNumber; // unique number for the account
-    private double balance;       // amount of money in the account
+    private String accountNumber; // unique number for accounts
+    private double balance;       // amount of money
 
     // Constructor
     public Account(String accountNumber, double balance) {
@@ -11,11 +12,11 @@ public abstract class Account {
 
     // Getters
     public String getAccountNumber() {
-        return accountNumber;  // returns the account number
+        return accountNumber;  // returns account number
     }
 
     public double getBalance() {
-        return balance;  // returns the balance
+        return balance;  // returns balance
     }
 
     // Setters
